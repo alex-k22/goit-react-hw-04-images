@@ -18,6 +18,8 @@ export function App() {
       return;
     }
     setQuery(newQuery);
+    setPage(1);
+    setImages([]);
   };
 
   const onShowMoreButtonClick = () => {
